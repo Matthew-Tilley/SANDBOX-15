@@ -1,7 +1,10 @@
-let tuna = "I am a tuna fish!";
+let tuna = {
+    
+    name: "Vlurp",
+    age: "Blurp"
+    
+};
+
 
 console.log(tuna);
-
-tuna.blurp = "Blurping tuna!";
-
-console.log(tuna.blurp);
+console.log(tuna.age);
