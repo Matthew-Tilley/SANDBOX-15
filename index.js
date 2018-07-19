@@ -1,8 +1,38 @@
+/*  
+    YouTube tutorial
+    Code Explained / JavaScript Functions - LESSON
+    
+    This is actually the FIRST video, and I watched it after completing
+    the second "PRACTICE" one.  Things learned:
+    
+    (1) For quite some time, I have been confused about the "semicolon / 
+        no semicolon" connundrum related to functions.  It *seemed* like
+        some people put them at the end of a function, whereas others
+        omitted them.
+        
+    (2) In a FUNCTION DECLARATION it is *NOT* necessary to put a semicolon
+        at the end because it is *NOT* an "executable statement."
+        
+    (3) In an ANONYMOUS function it *IS* necessary to put a semicolon at the
+        end because it *IS* an executable statement.
+        
+    (4) All of the above, simplified:
+        * Function declaration - semicolon;
+        * Function expression (anonymous function) then - put a semicolon.
+    
+*/
+
+
+
 
 /*  
     YouTube tutorial
     Code Explained / JavaScript Functions - PRACTICE
 */
+
+
+
+/*
 
 (4A)    Sure enough, just did it again...worked like a charm.
 
@@ -25,6 +55,7 @@ function add(u,p)
 
 console.log(add(10,10));
 
+*/
 
 
 
