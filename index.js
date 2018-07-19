@@ -4,6 +4,50 @@
     Code Explained / JavaScript Functions - PRACTICE
 */
 
+(4) Now we might be getting somewhere - this may have very well
+    been part of the problem.  I didn't realize that functions
+    could reach out and *automatically* pull a GLOBAL variable
+    into their scope.
+    
+    Before, I thought LOCAL and GLOBAL scopes were totally and
+    completely separate things...unable to link-up unless there
+    was specific action taken to connect them.  For example:
+
+    let x = 12;
+    let z = 99;
+
+    function add(x,y){
+    
+    let y = 5;
+    
+    return x + y + z;
+    
+    }
+
+    In the example above, I had THOUGHT one needed to SPECIFICALLY
+    pull the variable in by specifying it as a parameter.  That's
+    obviously not true, because the function below works just fine
+    and dandy exactlyt as it is:    
+        
+
+let x = 12;
+let z = 99;
+
+function add(){
+    
+    let y = 5;
+    
+    return x + y + z;
+    
+}
+
+
+console.log( add() );
+
+
+
+
+/*
 
 (3) Now I'm creating a function that RETURNS two numbers passed into it
     after they've been added together.  Wrapping it in a console.log() 
@@ -27,6 +71,10 @@ function add(a,b){
 }
 
 console.log(add(5,10));
+
+*/
+
+
 
 
 /*
