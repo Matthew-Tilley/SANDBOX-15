@@ -1,3 +1,24 @@
+    /*
+    
+    YouTube tutorial
+    JavaScript function practice - is one word inside another?
+    
+    */
+
+
+    function wordChecker(w1, w2){
+        
+        var isit = w1.indexOf(w2) > -1;
+        
+        return isit;
+        
+    }
+
+    console.log(wordChecker("laptop", "lap"));
+    // This works as expected.
+
+
+
 /*  
     YouTube tutorial
     Code Explained / JavaScript Functions - LESSON
