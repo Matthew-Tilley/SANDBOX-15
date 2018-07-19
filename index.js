@@ -4,6 +4,32 @@
     Code Explained / JavaScript Functions - PRACTICE
 */
 
+(4A)    Sure enough, just did it again...worked like a charm.
+
+        For a *VERY LONG* time I have (again) been under the 
+        mistaken impression that GLOBAL variables needed to be
+        pulled in VIA THE PARAMETERS AND ARGUMENTS but...that's
+        obviously NOT the case.
+
+        That might also go a long way in explaining why I have
+        been having such a hard time with functions, and RETURN
+        statements in particular!!!
+
+let r = 10;
+let q = 10;
+
+function add(u,p)
+{
+    return r + q + u + p;
+}
+
+console.log(add(10,10));
+
+
+
+
+/*
+
 (4) Now we might be getting somewhere - this may have very well
     been part of the problem.  I didn't realize that functions
     could reach out and *automatically* pull a GLOBAL variable
@@ -43,6 +69,8 @@ function add(){
 
 
 console.log( add() );
+
+*/
 
 
 
