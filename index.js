@@ -14,8 +14,12 @@
         
     }
 
-    console.log(wordChecker("laptop", "lap"));
+    //console.log(wordChecker("laptop", "lap"));
     // This works as expected.
+
+    let x = wordChecker("laptop", "top");
+
+    console.log(x);
 
 
 
