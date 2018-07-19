@@ -19,6 +19,16 @@
     (4) All of the above, simplified:
         * Function declaration - semicolon;
         * Function expression (anonymous function) then - put a semicolon.
+        
+    (5) I understood the concept before, but this video did a good job of
+        explaining the difference between "parameters" and "arguments."
+        
+        PARAMETERS are just "NAMES" being used as a temporary placeholder
+        of sorts.
+        
+        ARGUMENTS are ACTUAL VALUES passed into the function.
+        
+    
     
 */
 
