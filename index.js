@@ -5,6 +5,31 @@
 */
 
 
+(3) Now I'm creating a function that RETURNS two numbers passed into it
+    after they've been added together.  Wrapping it in a console.log() 
+    so I can "see" the output, it works as expected.
+    
+    I understand that the "a" and "b" in the actual function declaration
+    are "parameters" that just act as "name definitions" for passing
+    arguments into the function when called.$anchorScroll
+    
+    I also understand that when the function is invoked (called) the
+    items passed into the parenthesis are called "arguments" at that
+    point.
+    
+    Still no problem, conceptually...
+    
+
+function add(a,b){
+    
+    return a + b;
+    
+}
+
+console.log(add(5,10));
+
+
+/*
 
 (2A)    More practice
         So...this worked exactly as I expected.  The anonymous function
@@ -18,6 +43,8 @@ let funky = function(){
 }
 
 alert(funky());
+
+*/
 
 
 
